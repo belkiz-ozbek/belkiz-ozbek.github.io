@@ -1,0 +1,43 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	margin-right: 70px;
+}
+
+.outer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.myMain {
+    width: 70%; /* Assuming you want them to take full width */
+}
+
+
+.logo{
+	width: 500px;
+	height: 100px;
+}
+
+.coala{
+	width: 200px;
+	height: 150px;
+	padding-right: 25px;
+
+}
+
+.head{
+	width: 100%;
+}
+
+.header{
+	display: flex;
+    flex-direction: row;
+}
+
