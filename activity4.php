@@ -48,14 +48,14 @@
                             }
 							 elseif ($from == "USD" && $to == "CAD")
 							{
-                                $converted_amount = $amount * 1.25;
+                                $converted_amount = $amount * 1.35;
                             } elseif ($from == "USD" && $to == "EUR") 
 							{
-                                $converted_amount = $amount * 0.85;
+                                $converted_amount = $amount * 0.92;
                             } 
 							elseif ($from == "CAD" && $to == "USD") 
 							{
-                                $converted_amount = $amount * 0.80;
+                                $converted_amount = $amount * 0.74;
                             } elseif ($from == "CAD" && $to == "CAD")
 							{
                                 $converted_amount = $amount;
@@ -65,7 +65,7 @@
                             } 
 							elseif ($from == "EUR" && $to == "USD") 
 							{
-                                $converted_amount = $amount * 1.18;
+                                $converted_amount = $amount * 1.09;
                             } 
 							elseif ($from == "EUR" && $to == "CAD") 
 							{
